@@ -28,10 +28,10 @@ if ($mysqli->query($sql) === TRUE) {
     echo "New record created successfully";
     $mysqli->close();
 
-    header('Location: http://www.originalway.com.br/obrigado.html');
+    header('Location: http://www.fantasyway.com.br/obrigado.html');
 } else {
 
-    header('Location: http://www.originalway.com.br/obrigado.html');
+    header('Location: http://www.fantasyway.com.br/obrigado.html');
     echo "Error: " . $sql . "<br>" . $mysqli->error;
 }
 ?>
