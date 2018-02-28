@@ -1,7 +1,7 @@
 <?php
 $servidor = 'localhost';
 $usuario = 'root';
-$senha = '';
+$senha = 'Spin@0224';
 $banco = 'originalway';
 // Conecta-se ao banco de dados MySQL
 $mysqli = new mysqli($servidor, $usuario, $senha, $banco);
