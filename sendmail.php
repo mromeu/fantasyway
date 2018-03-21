@@ -12,6 +12,7 @@ $sql = "INSERT INTO contato (
   nome,
   email,
   telefone,
+  programa,
   cidade,
   mensagem,
   cadastro
@@ -19,6 +20,7 @@ $sql = "INSERT INTO contato (
   '".$_POST['nome']."',
   '".$_POST['email']."',
   '".$_POST['telefone']."',
+  '".$_POST['programa']."',
   '".$_POST['cidade']."',
   '".$_POST['mensagem']."',
   '".date('Y-m-d h:i:s')."'
