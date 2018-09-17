@@ -67,28 +67,7 @@
             </button>
             <a class="navbar-brand" href="index.html"></a>
           </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="index.html">HOME </a>
-              </li>
-              <li>
-                <a href="summer-orlando.html">SUMMER ORLANDO 2018 </a>
-              </li>
-              <li>
-                <a href="summer-orlando-2019.html">SUMMER ORLANDO 2019 </a>
-              </li>
-              <li>
-                <a href="frozen.html">FROZEN 2019</a>
-              </li>
-              <li class="active">
-                <a href="contato.html">CONTATO </a>
-              </li>
-            </ul>
-          </div>
-
+          <div w3-include-html="inc/menu.html"></div>
         </div>
       </nav>
     </header>
@@ -135,7 +114,7 @@
                 </a>
                 <div class="media-body">
                   <h4 class="media-heading">telefone</h4>
-                  <p>+55 51 3072-6316 <br</p>
+                  <p>+55 51 3239 7439 <br</p>
                 </div>
               </div>
               <div class="media">
@@ -144,14 +123,14 @@
                 </a>
                 <div class="media-body">
                   <h4 class="media-heading">email</h4>
-                  <p><a href="mailTo:contato@originalway.com.br">contato@originalway.com.br</a></p>
+                  <p><a href="mailTo:contato@originalway.com.br">contato@fantasyway.com.br</a></p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-7 col-xs-12 col-lg-8">
             <div class="contactForm">
-              <form action="sendmail.php" method="POST" role="form" class="form">
+              <!--<form action="sendmail.php" method="POST" role="form" class="form">
                 <div class="form-group">
                   <input type="text" class="form-control" name="nome" id="" placeholder="Seu nome">
                 </div>
@@ -178,7 +157,11 @@
                   <textarea class="form-control" id="" name="mensagem" placeholder="Mensagem"></textarea>
                 </div>
                 <button type="submit" class="btn buttonCustomPrimary">enviar mensagem</button>
-              </form>
+              </form>-->
+              <div class="cognito">
+              <script src="https://services.cognitoforms.com/s/SlKLwE21CUS45xlV98mzHw"></script>
+              <script>Cognito.load("forms", { id: "3" });</script>
+              </div>
             </div>
           </div>
         </div>
@@ -187,76 +170,11 @@
 
     <!-- MAP AREA SECTION -->
     <section class="mapArea">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7756512596757!2d-51.18201718550967!3d-30.043293581882754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977844226c8e9%3A0x2557b34a29c2fa26!2sOriginal+Way+Turismo!5e0!3m2!1spt-BR!2sbr!4v1519666318147" height="555" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7756512596757!2d-51.18201718550967!3d-30.043293581882754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977844226c8e9%3A0x2557b34a29c2fa26!2sFantasy+Way!5e0!3m2!1spt-BR!2sbr!4v1519666318147" height="555" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
 
     <!-- FOOTER -->
-    <footer>
-      <div class="footer clearfix">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3 col-xs-12">
-              <div class="footerContent">
-                <a href="index.html" class="footer-logo"><img src="img/logo-color-sm.png" alt="footer-logo"></a>
-                <P>Somos do grupo da ORIGINAL WAY e amamos Orlando e o seu mundo mágico da Disney, Universal Studios e todos os outros parques que sempre nos fazem voltar a ser criança e viver dias de sonhos! Trabalhamos com muita paixão e personalização dos roteiros o que nos faz sermos especialistas no destino!</P>
-                <P>Segurança, diversão e atenção são as palavras que nos comandam, em todo o processo trabalhamos para que a viagem de cada um seja do jeito que se espera e que o sonho se torne realmente a sua realidade.</p>
-              </div>
-            </div>
-            <div class="col-sm-3 col-xs-12">
-              <div class="footerContent">
-                <h5>contato</h5>
-                <h5>porto alegre</h5>
-                <ul class="list-unstyled">
-                  <li><i class="fa fa-phone" aria-hidden="true"></i> +55 51 3072-6316</li>
-                  <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailTo:contato@originalway.com.br"> contato@originalway.com.br</a></li>
-                  <li><i class="fa fa-home" aria-hidden="true"></i> Rua Maranguapé 72 - Loja 2 - Porto Alegre - RS</li>
-                </ul>
-                <h5>taquari</h5>
-                <ul class="list-unstyled">
-                  <li><i class="fa fa-phone" aria-hidden="true"></i> +55 51 99999-2768</li>
-                  <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailTo: cesinhaporto@yahoo.com.br"> cesar.porto@originalway.com.br</a></li>
-                </ul>
-                <h5>venâncio aires</h5>
-                <ul class="list-unstyled">
-                  <li><i class="fa fa-phone" aria-hidden="true"></i> +55 51 3741-1044</li>
-                  <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailTo: contato@zapturismo.com.br"> contato@zapturismo.com.br</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-2 col-xs-12">
-              <div class="footerContent imgGallery">
-                <h5>Redes Sociais</h5>
-                <div class="row">
-                  <ul class="list-inline">
-                    <li><a href="https://www.facebook.com/fantasyway"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="https://instagram.com/fantasyway_orlando"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="mailTo: contato@originalway.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-              <div class="fb-page" data-href="https://www.facebook.com/fantasyway/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fantasyway/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fantasyway/">Fantasy Way</a></blockquote></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="copyRight clearfix">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-sm-push-6 col-xs-12">
-              <ul class="list-inline">
-              </ul>
-            </div>
-            <div class="col-sm-6 col-sm-pull-6 col-xs-12">
-              <div class="copyRightText">
-            <p>Copyright © 2018. All Rights Reserved by Original Way.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <div w3-include-html="inc/footer.html"></div>
     </div>
 
     <!-- Google Code for Fale Conosco Conversion Page -->
@@ -292,7 +210,9 @@
   <script src="plugins/countdown/jquery.syotimer.js"></script>
   <script src="plugins/slick/slick.min.js"></script>
   <script src="js/custom.js"></script>
-
+    <script>
+includeHTML();
+</script>
   </body>
 
   </html>
